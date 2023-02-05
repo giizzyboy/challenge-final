@@ -1,8 +1,8 @@
 import {generatePalette} from "./utils";
+import {Colors} from "./colors"
 
 //4. Gérer l'entrée utilisateur
-const form = document.querySelector("form");
-// const regex = new RegExp("/^#[0-9A-F]")
+const form = document.querySelector('form');
 
 form.addEventListener("submit", (e)=>{
     try {
@@ -19,6 +19,6 @@ form.addEventListener("submit", (e)=>{
     }catch (err) {
         console.error(err)
     }
-})
+});
 
 
